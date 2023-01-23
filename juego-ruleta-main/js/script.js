@@ -50,14 +50,14 @@ function premio(premios){
      premio2("Premio 2");
      break;
      case valor > 90 && valor <= 135:
-     premio3("Premio 3"); 
-     break; 
+     premio3("Premio 3");
+     break;
      case valor > 135 && valor <= 180:
      premio4("Premio 4");
      break;
      case valor > 180 && valor <= 225:
      premio5("Premio 5");
-     break; 
+     break;
      case valor > 225 && valor <= 270:
      premio6("Premio 6");
      break;
@@ -65,7 +65,7 @@ function premio(premios){
      premio7("Premio 7");
      break;
      case valor > 315 && valor <= 360:
-     premio8("Premio 8"); 
+     premio8("Premio 8");
      break;
   }
 
