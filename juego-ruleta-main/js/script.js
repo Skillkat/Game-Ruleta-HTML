@@ -20,7 +20,7 @@ function girar(){
     }).then((result)=>{
       if (result.value == true) {
         giros = 0;
-         document.querySelector('.elije').innerHTML = 'TU CUPON ES: ';
+         document.querySelector('.elige').innerHTML = 'TU CUPON ES: ';
          document.querySelector('.contador').innerHTML = 'TURNOS: ' + giros;
       }
     })
@@ -30,7 +30,7 @@ function girar(){
 
 function premio(premios){
 
-  document.querySelector('.elije').innerHTML = 'TU CUPON ES: ' + premios;
+  document.querySelector('.elige').innerHTML = 'TU CUPON ES: ' + premios;
 
 }
 
