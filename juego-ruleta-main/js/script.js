@@ -13,10 +13,10 @@ function girar(){
   }else{
     Swal.fire({
       icon: 'success',
-      title: 'Felicitaciones, has ganado el Cupon: ',
+      title: 'Felicitaciones, has ganado el Cupon:' + premio,
       confirmButtonColor: '#3085d6',
       confirmButtonText: 'Aceptar',
-      allowOutsideClick: false
+      allowOutsideClick: true
     }).then((result)=>{
       if (result.value == true) {
         giros = 0;
